@@ -52,7 +52,7 @@ print((array_3*2).tolist())         # convert to list
 print(type(array_3))
 
 ###########################################
-
+# Indexing and Slicing
 # help(np.linspace(1, 3))           help can be used when more syntax and other information is required
 
 a = np.random.randint(1, 10, 10)
