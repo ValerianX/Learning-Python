@@ -30,6 +30,20 @@ print(array1[[1, 3]])           # Strictly positional, indices passed as a list
 print(pd.Series([1, 2, 3], index=['a', 'b', 'c']))                  # Explicitly defining index
 print(pd.Series(np.array(range(10))**2, index=range(0, 10)))        # Explicitly defining index
 
+# importing pandas package
+import pandas as pd
+
+# making data frame from csv file
+data = pd.read_csv("nba.csv")
+
+# retrieving rows by loc method
+row1 = data.loc[3]
+
+# retrieving rows by iloc method
+row2 = data.iloc[3]
+
+# checking if values are equal
+row1 == row2
 
 
 
