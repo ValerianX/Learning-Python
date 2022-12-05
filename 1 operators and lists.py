@@ -4,7 +4,7 @@ print(a // b)  # absolute dividend
 print(a % b)  # remainder
 print(a ** b)  # power
 
-print('doesn\'t')  # "\" is iused as an escape operator
+print('doesn\'t')  # "\" is used as an escape operator
 print("doesn't")  # alternatively
 print("First Line.\nSecond line")  # \n means new line
 
