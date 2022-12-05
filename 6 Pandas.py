@@ -72,11 +72,17 @@ print(df_read.sort_values(by=['Province', 'Customer_Name'], ascending=False))   
 market_df = pd.read_csv(r'C:\Users\vyome\OneDrive\Desktop\PGDMLAI\0 Pre preparatory\Python for Data Science\2_Introduction to '
                         r'Pandas\global_sales_data\market_fact.csv')
 print(market_df)
+print('\n')
 market_df[2:7]
+print('\n')
 market_df[5::2].head()
+print('\n')
 print(market_df['Sales'])
+print('\n')
 print(market_df.Sales)
+print('\n')
 market_df[['Cust_id', 'Sales', 'Profit']].head()
+print('\n')
 
 """Position(integer: 0 to -1, list or array, slice[1:3], booleans[[True, True, False], [False, True]]) based indexing using "df.iloc" and 
 Label based indexing using "df.loc"""
@@ -88,6 +94,7 @@ print(market_df.iloc[2, :3])            # 2nd row but only up to 3rd column
 print(market_df.iloc[[1, 3, 7], 1:3])   # Pass list of selected/indexed row positions and selected/sliced columns
 
 # Label Based Indexing
+
 
 
 
